@@ -13,8 +13,11 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-router.put("/api/workouts:id", (req, res) => {
-    workout.update({_id: db.ObjectId(req.params.id)}, {$set: {"type": req.body.type, "name": req.body.name, "duration": req.body.duration, "weight": req.body.weight, "reps": req.body.reps, "sets": req.body.sets}})
+router.put("/api/workouts/:id", (req, res) => {
+    workout.findByIdAndUpdate(req.params.id,
+      {$push:{exercises: req.body}},
+      {new: true}
+    )
       .then(dbworkout => {
           console.log(dbworkout);
         res.json(dbworkout);
@@ -23,18 +26,9 @@ router.put("/api/workouts:id", (req, res) => {
         res.status(400).json(err);
       });
   });
-// router.post("/api/transaction/bulk", ({ body }, res) => {
-//   Transaction.insertMany(body)
-//     .then(dbTransaction => {
-//       res.json(dbTransaction);
-//     })
-//     .catch(err => {
-//       res.status(400).json(err);
-//     });
-// });
 
 router.get("/api/workouts", (req, res) => {
-  workout.find({})
+  workout.find()
     .sort({ date: -1 })
     .then(dbTransaction => {
       res.json(dbTransaction);
@@ -42,6 +36,17 @@ router.get("/api/workouts", (req, res) => {
     .catch(err => {
       res.status(400).json(err);
     });
+});
+
+router.get("/api/workouts/range", (req, res) => {
+  workout.find()
+  .sort({ date: -1 })
+  .then(dbTransaction => {
+    res.json(dbTransaction);
+  })
+  .catch(err => {
+    res.status(400).json(err);
+  });
 });
 
 module.exports = router;
