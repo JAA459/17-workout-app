@@ -40,6 +40,6 @@
   
   ### Screenshots ###
   ![alt text](https://github.com/JAA459/17-workout-app/blob/main/public/images/exercise.png)
-  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/home.png)
-  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/stats.png)
+  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/public/images/home.png
+  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/public/images/stats.png)
   
