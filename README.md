@@ -38,5 +38,5 @@
   Email: [JAlexArroyo@gmail.com](JAlexArroyo@gmail.com)
   
   ### Screenshots ###
-  ![alt text](https://jaa459.github.io/17-workout-app/blob/main/Develop/public/images/exercise.png)
+  ![alt text](https://jaa459.github.io/17-workout-app/main/Develop/public/images/exercise.png)
   
