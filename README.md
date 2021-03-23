@@ -37,3 +37,6 @@
   GitHub: [JAA459](https://github.com/JAA459) </br>
   Email: [JAlexArroyo@gmail.com](JAlexArroyo@gmail.com)
   
+  ### Screenshots ###
+  ![alt text](https://jaa459.github.io/05-calender-app/Screenshot-Calendar-Page.png)
+  
