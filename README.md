@@ -35,7 +35,8 @@
   ### Questions ###
   For further questions you can contact me at:</br>
   GitHub: [JAA459](https://github.com/JAA459) </br>
-  Email: [JAlexArroyo@gmail.com](JAlexArroyo@gmail.com)
+  Email: [JAlexArroyo@gmail.com](JAlexArroyo@gmail.com) <br>
+  Heroku Deployment link: [Workout App](https://immense-meadow-24365.herokuapp.com/)
   
   ### Screenshots ###
   ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/exercise.png)
