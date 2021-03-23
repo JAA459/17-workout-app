@@ -39,7 +39,7 @@
   Heroku Deployment link: [Workout App](https://immense-meadow-24365.herokuapp.com/)
   
   ### Screenshots ###
-  ![alt text](https://github.com/JAA459/17-workout-app/tree/main/public/images)
+  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/public/images/exercise.png)
   ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/home.png)
   ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/stats.png)
   
