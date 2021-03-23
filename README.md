@@ -38,5 +38,7 @@
   Email: [JAlexArroyo@gmail.com](JAlexArroyo@gmail.com)
   
   ### Screenshots ###
-  ![alt text](https://jaa459.github.io/05-calender-app/Screenshot-Calendar-Page.png)
+  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/exercise.png)
+  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/home.png)
+  ![alt text](https://github.com/JAA459/17-workout-app/blob/main/Develop/public/images/stats.png)
   
